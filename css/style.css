@@ -155,7 +155,7 @@ footer{
 .linha1{
     display: flex;
     justify-content: space-around;
-    align-items: center;
+    align-items: baseline;
 }
 
 footer ul{
@@ -206,6 +206,7 @@ footer .endereço{
     font-weight: 800;
     line-height: 24.2px;
     text-align: center;
+    align-items: center;
 
 }
 footer .linha2{
@@ -270,6 +271,7 @@ footer .linha2 a{
         flex-direction: column;
         padding-top: 55px;
         padding-bottom: 55px;
+        align-items: center;
     }
     footer .endereço{
         padding-top: 55px;
